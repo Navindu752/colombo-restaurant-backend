@@ -1,4 +1,4 @@
-# cruton-backend
+# colombo-restaurant-backend
 
 ## Setup your work environment
 
