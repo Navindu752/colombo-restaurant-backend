@@ -1,0 +1,44 @@
+{
+  "name": "colombo-restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest --passWithNoTests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev4stechnologies/cruton-backend.git"
+  },
+  "author": "dev4s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev4stechnologies/cruton-backend.git/issues"
+  },
+  "homepage": "https://github.com/dev4stechnologies/cruton-backend.git#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "cloudinary": "^1.27.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.11",
+    "nodemon": "^2.0.7",
+    "sib-api-v3-sdk": "^8.5.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.3.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  }
+}
